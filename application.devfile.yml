@@ -1,17 +1,3 @@
-server:
-  port: 8087
-  
-spring:
-  application:
-    name: devfile
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/DeepakBasoiya1/MicroService
-          clone-on-start: true
-
-
 eureka:
   instance:
     prefer-ip-address: true
